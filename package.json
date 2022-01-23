@@ -2,8 +2,9 @@
   "name": "damp",
   "version": "1.0.0",
   "description": "A ui for manage your Apache-Mysql-Php local server using docker",
-  "main": "index.js",
+  "main": "src/main.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +19,11 @@
   },
   "homepage": "https://github.com/leoyd/DAMP#readme",
   "devDependencies": {
+    "electron": "^16.0.7",
     "electron-prebuilt": "^1.4.13"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "bootstrap": "^5.1.3"
   }
 }
