@@ -1,0 +1,23 @@
+{
+  "name": "damp",
+  "version": "1.0.0",
+  "description": "A ui for manage your Apache-Mysql-Php local server using docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leoyd/DAMP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leoyd/DAMP/issues"
+  },
+  "homepage": "https://github.com/leoyd/DAMP#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^1.4.13"
+  }
+}
